@@ -1,0 +1,130 @@
+html {
+    color: #fff;
+}
+
+body {
+    
+	font-family: sans-serif;
+	margin: 0 auto;
+	max-width: 1120px;
+	background: linear-gradient(450deg, #6492c7, #9b6ad3);
+    background-size: 120% 120%;
+}
+
+.cabecalho {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 25px 15px;
+}
+
+.cabecalho .logo img{
+	width: 65px;
+	height: 65px;
+	border-radius: 50%;
+	
+}
+
+.cabecalho .logo img:hover{
+	transition: 0.5s;
+	transform: scale(1.5);
+}
+
+.cabecalho .redes-sociais {
+	display:flex ;
+	gap: 20px;
+}
+
+.cabecalho .redes-sociais a i {
+	border: 1px solid #fff;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	padding: 10px;
+	text-align: center;
+	font-size: 26px;
+	transition: 0.3s;
+}
+
+.cabecalho .redes-sociais a i:hover {
+	color: #9443d8;
+	border: 1px solid #9443d8;
+	transform: scale(1.1);
+}
+
+.home {
+	min-height: calc(100vh - 125px);
+    align-items: center;
+    gap: 50px;
+    justify-content: space-between;
+}
+.home .objetivo {
+    letter-spacing: 2px; 
+	
+}
+
+.home .objetivo h1{
+	font-size: 35px;
+	margin-bottom: 20px;
+	text-align: center;
+	padding-top: 80px;
+}
+.home .objetivo h2{
+	font-size: 33px;
+	margin-bottom: 20px;
+	text-align: center;
+	padding-bottom:50px ;
+}
+
+.container-doces {
+	padding: 70px 0 70px;
+	display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    justify-content: center;
+	flex-wrap: wrap;
+}
+
+.container-doces .doce{
+	background-color: #1c3f61;
+	max-width: 170px;
+    max-height: 500px;
+    position: relative;
+	border: 2px solid ;
+	border-radius: 20px;
+	
+}
+
+.container-doces .doce img{
+	height: 200px;
+	width: 180px;
+	border-radius: 17px;
+}
+
+.container-doces .faca-seu-pedido img{
+	height: 80px;
+	width: 180px;
+}
+
+.container-doces .doce h2{
+	text-align: center;
+    font-family: sans-serif;
+	font-size: 20px;
+	    
+}
+
+.container-doces .doce h4{
+	text-align: center;
+    font-family: sans-serif;
+	font-size: 15px;
+	padding: 20px;
+	    
+}
+
+.container-doces .doce h3{
+	text-align: center;
+    font-family: sans-serif;
+	font-size: 15px;
+	padding: 45px 20px 20px 20px;
+	
+}
